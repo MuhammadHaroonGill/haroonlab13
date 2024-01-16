@@ -1,10 +1,17 @@
 package haroon;
 
-public class Task {
-	public static void main(String[] args) {
-	        // Print normal text
-	       System.out.println("Hello, this is Venmer");        
-	 }
+public class Task {    
+    private static final String NAME = "Haroon";
+    
+    private static void printName() {
+        System.out.println("I am " + NAME);
+    }
+
+    public static void main(String[] args) {    
+        printName();
+    }
 }
 
+//Here we just created funtion printName.
+//It prints the name Haroon by calling it in main class
 
